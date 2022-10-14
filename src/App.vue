@@ -1,18 +1,53 @@
 <template>
-  <div class="container">
-    ddddd
-  </div>
+<header-top :menuList="menuList" :topMenu="topMenu"></header-top>
+<main-slide :mData="mData"></main-slide>
+
+ 
 </template>
 
 <script>
+import mData from "@/data/01mainSlide";
+import headerTop from "@/components/headerTop.vue";
+import mainSlide from "@/components/mainSlide.vue";
 export default {
+  data(){
+    return{
+      topMenu:[
+        { src:"fa-solid fa-magnifying-glass",
+          url:"#"},
+        {src:"fa-solid fa-user-large",
+          url:"https://www.jakorea.org/login.php"},
+        {src:"fa-brands fa-facebook",
+          url:"https://www.jakorea.org/login.php"},
+        {src:"fa-brands fa-instagram",
+          url:"https://www.jakorea.org/login.php"},
+        {src:"fa-brands fa-youtube",
+          url:"https://www.jakorea.org/login.php"},
+        {src:"fa-solid fa-bars",
+          url:"https://www.jakorea.org/login.php"},
+       
+
+      ],
+      menuList: [
+        {menu:"제이에이코리아",url:"https://www.jakorea.org/?p=2"},
+        {menu:"투명경영",url:"#"},
+        {menu:"교육사업",url:"#"},
+        {menu:"기관소식",url:"#"},
+        {menu:"후원하기",url:"#"},
+      ],
+      mData:mData
+     
+    }
+  },
+  components:{
+    headerTop,
+    mainSlide,
+  }
 
 }
 </script>
 
 <style>
-.container{
-    width: 100px;height: 300px;
-    background: #000;
-}
+ @import url(./assets/style.css);
+ 
 </style>
