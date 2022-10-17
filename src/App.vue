@@ -48,6 +48,8 @@ export default {
 </script>
 
 <style>
- @import url(./assets/style.css);
+ @import url('./assets/style.css');
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body{font-family: 'Nanum Gothic Coding', monospace;}
  
 </style>

@@ -8,3 +8,4 @@ a:link,a:visited{
     text-decoration: none;
 }
 body{font-family: 'Nanum Gothic Coding', monospace;}
+.container{width: 1440px!important;}
