@@ -1,5 +1,5 @@
 <template>
-   <div class="container">
+   <div class="container mb-3">
     <div class="navbar">
       <a href="#">
         <img src="images/logo.svg" alt="" class="w-100 h-100">

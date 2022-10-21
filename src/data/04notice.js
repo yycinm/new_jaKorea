@@ -2,7 +2,7 @@ export default [
     {
         name: '공지사항',
         title: '2022-2023 JA 소셜크리에이터 6기 합격자 발표',
-        subtitle: '',
+        subtitle: '111',
         src: '04_01_01.jpg',
         href: 'javascript:void(0);',
         content: '',
