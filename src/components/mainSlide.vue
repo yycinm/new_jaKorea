@@ -1,5 +1,5 @@
 <template>
-  <div class="mSlide">
+  <div class="mSlide mb-5">
     <div class="container">
       <div class="row">
         <swiper 
