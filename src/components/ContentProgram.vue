@@ -1,4 +1,7 @@
 <template>
+
+
+
   <div class="container">
     <div class="tabMenu row mb-5">
       <h2 class="col-12 col-md-4">JA 교육프로그램</h2>
@@ -28,6 +31,7 @@
       :eduProgram="eduProgram"
     ></conpro-sub>
   </div>
+  <!-- <div class="conproBg d-md-block d-none"></div> -->
 </template>
 
 <script>
@@ -66,7 +70,7 @@ export default {
     font-size: 50px;
     font-weight: bold;
   }
-  .conPro{
+  .conPro{z-index: 10;
     .row{
       height: 100%;
       div{
@@ -77,6 +81,7 @@ export default {
       div.active h3{
         border-bottom: 3px solid #285f74;
         font-weight: bold;
+
       }
 
     }
@@ -88,5 +93,12 @@ export default {
       cursor: pointer;
     }
   }
+}
+.conproBg{
+  width: 511px;height: 100%;border-radius: 100px 0 0 100px;
+  background: #ccc;position: absolute;right: 0px; top: 0;opacity: 0.5;
+}
+.bbg{
+  position: relative;
 }
 </style>

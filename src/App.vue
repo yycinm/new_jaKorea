@@ -6,6 +6,11 @@
 
 <content-count></content-count>
 <main-visual :notice="notice" :story="story" :news="news"></main-visual>
+<visual></visual>
+<visual-vedio></visual-vedio>
+<visual-banner></visual-banner>
+<visual-subscribe></visual-subscribe>
+<footer-banner></footer-banner>
 
  
 </template>
@@ -29,6 +34,13 @@ import news from "@/data/06new";
 import MainContent from './components/MainContent.vue';
 import ContentProgram from './components/ContentProgram.vue';
 import ContentCount from './components/ContentCount.vue';
+import Visual from './components/Visual.vue';
+import VisualVedio from './components/VisualVedio grid.vue';
+import VisualBanner from './components/VisualBanner.vue';
+import VisualSubscribe from './components/VisualSubscribe.vue';
+import FooterBanner from './components/FooterBanner.vue';
+
+
 
 
 
@@ -79,6 +91,11 @@ export default {
     ContentCount,
     MainContent,
     ContentProgram,
+    Visual,
+    VisualVedio,
+    VisualBanner,
+    VisualSubscribe,
+    FooterBanner,
 
 
   }

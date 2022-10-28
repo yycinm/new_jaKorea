@@ -5,8 +5,10 @@
 export default [
 	{
 	  title:"[2차모집] 씨티-JA 여대생 특별한 JOB담 in 핀테크",
+    date:"2022-10-12",
   s_src: "img1.png",
 			 b_src: "img1_b.jpg",
+       state:"모집중",
   target: "여대생",
   recruitment: "2022.10.12(수)~11.08(화) 23시59분",
   announcement: "2022.11.10(목) 17시",
@@ -15,7 +17,9 @@ export default [
   subcontent:"",
 	},
   {
-	  title:"[2차모집] 씨티-JA 여대생 특별한 JOB담 in 핀테크",
+	  title:"2022 국민대학교-JA Korea 기업가정신 캠프 고등 참여",
+    state:"모집중",
+    date:"2022-10-12",
   s_src: "img2.png",
 			 b_src: "img2_b.png",
   target: "전국 17~19세 청소년 / 고등학교 재학생, 학교밖청소년 40명",
@@ -27,6 +31,8 @@ export default [
 	},  
   {
 	  title:"[삼성 주니어 SW 아카데미] AI/SW 교육 체험 부스 (교육기부박람회) 대학생 운영스탭 모집(~9/25)",
+    state:"모집완료",
+    date:"2022-09-20",
   s_src: "img3.jpg",
 			 b_src: "img3.jpg",
   target: "AI/SW 관련 전공 대학생 6명",
@@ -38,7 +44,9 @@ export default [
   },
   {
 	  title:"2022 아시아발전재단-JA Korea ‘우리가족 즐거운 경제교육’ 프로그램 참가 기관 모집",
-  s_src: "img4.jpg",
+    state:"모집완료",
+    date:"2022-08-01",
+    s_src: "img4.jpg",
 			 b_src: "img4_b.jpg",
   target: "전국 다문화 가족지원센터",
   recruitment: "2022.8.1.(월)~8.11.(목) 18시",
@@ -49,7 +57,9 @@ export default [
 	},
   {
 	  title:"[강사모집] 미래 리더를 위한 여중생 자립심 향상 프로그램 'Goal' 강사 모집",
-  s_src: "img5.jpg",
+    state:"모집완료",
+    date:"2022-07-06",
+    s_src: "img5.jpg",
 			 b_src: "img5_b.png",
   target: "방과후 혹은 기간제 경험이 있는 분",
   recruitment: "2022년 7월 6일(수) - 7월 28일(목)",
@@ -60,7 +70,9 @@ export default [
 	},
   {
 	  title:"[모집] TTBiz 2022 프로그램 참가자 모집",
-  s_src: "img6.jpg",
+    state:"모집완료",
+    date:"2022-07-11",
+    s_src: "img6.jpg",
 			 b_src: "img6_b.jpg",
   target: "전국 고등학교 1~2학년생, 영어 의사소통 가능자",
   recruitment: "2022.7.11.(월) ~ 8.1.(월) 16시",
@@ -71,7 +83,9 @@ export default [
 	},
   {
 	  title:"[모집] 대학생 경제교육봉사단 UJAT 29기 모집",
-  s_src: "img7.jpg",
+    state:"모집완료",
+    date:"2022-07-04",
+    s_src: "img7.jpg",
 			 b_src: "img7_b.jpg",
   target: "대학생, 휴학생, 대학원생, 졸업예정자",
   recruitment: "2022.07.04(월)~07.26.(화) 24시",
@@ -82,7 +96,9 @@ export default [
 	},
   {
 	  title:"[모집] 2022 FLEX 자립준비청년 프로그램 참여자 모집",
-  s_src: "img8.jpg",
+    state:"모집완료",
+    date:"2022-07-04",
+    s_src: "img8.jpg",
 			 b_src: "img8.jpg",
   target: "자립준비가 필요한 청년(20세~24세)",
   recruitment: "2022.07.04(월) ~ 2022. 07. 20(수) 24시",
@@ -93,7 +109,9 @@ export default [
 	},
   {
 	  title:"[모집마감] 세계 3대 신용평가사 무디스와의 점심특강 대학생 모집",
-  s_src: "img9.jpg",
+    state:"모집완료",
+    date:"2022-06-22",
+    s_src: "img9.jpg",
 			 b_src: "img9_b.jpg",
   target: "전국 대학생",
   recruitment: "2022.6.22(수)~6.27.(월)",
@@ -104,7 +122,9 @@ export default [
 	},
   {
 	  title:"[추가모집] 외국계 금융 및 미디어 기업 취업에 관심있는 대학생 참가자 모집(온라인 진행)",
-  s_src: "img10.jpg",
+    state:"모집완료",
+    date:"2022-06-14",
+    s_src: "img10.jpg",
 			 b_src: "img10_b.jpg",
   target: "전국 대학생(졸업유예 및 휴학생 지원 가능)",
   recruitment: "2022.6.14.(화)~6.23.(목)까지",

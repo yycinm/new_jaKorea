@@ -22,11 +22,11 @@
           :key="item"
           :class="{ edu01: (tab = 1) }"
           >
-        <a :href="`http://${item.href}`"></a>
         <div class="conProTxt">
 
         <h3 v-html="item.title"></h3>
         <h4 v-html="item.subtitle"></h4>
+        <a :href="`http://${item.href}`">자세히보기 →</a>
         </div>
         <img :src="`./images/03eduProgram/${item.src}`" alt="" class="eduIm img-fluid d-md-block d-none">
     </swiper-slide>
@@ -34,11 +34,11 @@
           v-for="item in edu02"
           :key="item"
           :class="{ edu02: (tab = 2) }">
-        <a :href="`http://${item.href}`"></a>
          <div class="conProTxt">
 
         <h3 v-html="item.title"></h3>
         <h4 v-html="item.subtitle"></h4>
+        <a :href="`http://${item.href}`">자세히보기 →</a>
         </div>
         <img :src="`./images/03eduProgram/${item.src}`" alt="" class="eduIm img-fluid d-md-block d-none">
     </swiper-slide>
@@ -46,11 +46,12 @@
           v-for="item in edu03"
           :key="item"
           :class="{ edu03: (tab = 3) }">
-        <a :href="`http://${item.href}`"></a>
            <div class="conProTxt">
 
         <h3 v-html="item.title"></h3>
         <h4 v-html="item.subtitle"></h4>
+        <a :href="`http://${item.href}`">자세히보기 →</a>
+
         </div>
         <img :src="`./images/03eduProgram/${item.src}`" alt="" class="eduIm img-fluid d-md-block d-none">
     </swiper-slide>
@@ -63,6 +64,7 @@
 
         <h3 v-html="item.title"></h3>
         <h4 v-html="item.subtitle"></h4>
+        <a :href="`http://${item.href}`">자세히보기 →</a>
         </div>
         <img :src="`./images/03eduProgram/${item.src}`" alt="" class="eduIm img-fluid d-md-block d-none">
     </swiper-slide>
@@ -112,10 +114,14 @@ export default {
  padding: 100px;height: 505px;display: flex;justify-content: center;align-items:center;width: 100%;
   .conProTxt{
     width: 100%;
+    a{width: 235px;background: #fff;transition: 0.3s;
+      padding: 15px 20px;_border: 1px solid #000;border-radius: 20px;color:#333;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      &:hover{background: linear-gradient(90deg, #13547A 0%, #80D0C7 100%); color: #fff;}
+    }
 
   }
     h3{font-size: 35px;_background: red;font-weight: bolder;}
-    h4{font-size: 18px;_background: pink;_width: 100%;padding: 10px 0;}
+    h4{font-size: 18px;_background: pink;_width: 100%;padding: 10px 0;margin-bottom: 80px;}
   }
   .eduIm{
     height: 100%;margin-left: 100px;
