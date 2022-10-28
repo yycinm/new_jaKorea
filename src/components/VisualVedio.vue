@@ -28,6 +28,7 @@ export default {};
   width: 100%;
   height: 881px;
   overflow: hidden;
+  margin-bottom: 100px;;
   .vvedio {
     width: 100%;
   }

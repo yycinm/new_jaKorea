@@ -8,7 +8,7 @@
 <main-visual :notice="notice" :story="story" :news="news"></main-visual>
 <visual></visual>
 <visual-vedio></visual-vedio>
-<visual-banner></visual-banner>
+<visual-banner :support="support"></visual-banner>
 <visual-subscribe></visual-subscribe>
 <footer-banner></footer-banner>
 
@@ -27,6 +27,7 @@ import edu01 from '@/data/edu01';
 import edu02 from '@/data/edu02';
 import edu03 from '@/data/edu03';
 import edu04 from '@/data/edu04';
+import support from '@/data/09support';
 
 import notice from "@/data/04notice";
 import story from "@/data/05notice";
@@ -81,6 +82,7 @@ export default {
       edu02:edu02,
       edu03:edu03,
       edu04:edu04,
+      support:support,
      
     }
   },
