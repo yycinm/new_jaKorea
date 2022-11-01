@@ -13,7 +13,7 @@
             </div>
       </div>
     </div>
-    <video class="vvedio" autoplay loop>
+    <video class="vvedio mb-5" autoplay loop>
       <source src="images/main-home-01-2.mp4" type="" />
     </video>
   </div>
