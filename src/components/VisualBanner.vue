@@ -3,8 +3,13 @@
     <div class="row">
       <div class="col-12 col-md-4 bText">
         <p>국내외 여러기업이 동참하고 있습니다.</p>
-        <h2>JA KOREA 후원</h2>
-        <div class="btn">자세히 보기</div>
+        <h2 class="mb-5">JA KOREA 후원</h2>
+        <div class="btn">
+          <a href="#" class="text-center">
+
+          자세히 보기
+          </a>
+          </div>
       </div>
       <div class="col-12 col-md-8 bIcon">
         <swiper
@@ -13,7 +18,7 @@
             clickable: true,
           }"
           :modules="modules"
-          class="mySwiper03"
+          class="mySwiper03 mb-5"
         >
           <swiper-slide class="brands">
             <ul>
@@ -106,16 +111,26 @@ export default {
     .btn{height: 65px;
    
     line-height: 65px;
-    background: #fff;
-    position: absolute;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    bottom: 25%;
-    left: 3%;
+    padding: 5px 50px;
+        background: #fff;
+    box-shadow: 0 0 17px 6px rgb(0 0 0 / 9%);
+  
     border-radius: 30px;
-    color:#333
-
+    color:#333;
+    &:hover{transition:0.3s;
+background-image: linear-gradient( -45deg,#00a0af,#00c0ca, #008b9c, #28708b,#28708b, #008b9c,#00c0ca,#00a0af)
+    ;}
+    &:hover a{
+color: white;
     }
-  }
+
+     a{transition:0.3s;
+       display: flex;
+    justify-content: space-between;
+    align-items: center;width: 100%;height: 100%;
+  
+    }
+  }}
   .bIcon {
     ul {
       width: 100%;
