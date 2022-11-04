@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-4 bText">
+      <div class="col-12 col-md-4 bText mb-5">
         <p>국내외 여러기업이 동참하고 있습니다.</p>
         <h2 class="mb-5">JA KOREA 후원</h2>
         <div class="btn">
@@ -132,9 +132,11 @@ color: white;
     }
   }}
   .bIcon {
+    display: flex;justify-content: center;align-items:center;_width: 100%;height: 100%;
     ul {
       width: 100%;
       display: flex;
+      justify-content: center;align-items:center;
      
       li {
         width: 164px;
@@ -148,14 +150,14 @@ color: white;
       }
     }
   }
-  .brands{
-    ul{
+  .brands{ 
+    ul{width: 100%;display: flex;justify-content: flex-end;align-items:center;
        .threeM{
         img{height: 55px;}
         
       }
       li{
-        width: 275px;height: 90px;background: #dddddd;border-radius: 10px;padding: 20px 50px;
+       width:  calc(100%/3);;height: 90px;background: #dddddd;border-radius: 10px;padding: 20px 50px;
         margin-bottom: 10px;margin-right: 10px;
         display: flex;justify-content: center;align-items: center;
       }
